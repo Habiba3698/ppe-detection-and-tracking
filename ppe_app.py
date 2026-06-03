@@ -161,7 +161,9 @@ if uploaded_file is not None:
                         conf=confidence,
                         device=device,
                         tracker="my_tracker.yaml",
-                        save=True
+                        imgsz=512,
+                        save=True,
+                        stream=True
                     )
 
                 detect_dir = Path("runs/detect")

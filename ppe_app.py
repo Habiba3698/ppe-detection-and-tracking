@@ -193,7 +193,7 @@ if uploaded_file is not None:
                             "-i", str(output_video),
                             "-c:v", "libx264",
                             "-preset", "fast",
-                            "-crf", "23",
+                            "-crf", "28",
                             str(mp4_video)
                         ],
                         check=True

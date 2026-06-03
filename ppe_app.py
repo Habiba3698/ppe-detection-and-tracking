@@ -196,6 +196,7 @@ if uploaded_file is not None:
                             ffmpeg_exe,
                             "-y",
                             "-i", str(output_video),
+                            "-vf", "scale=1280:-1",
                             "-c:v", "libx264",
                             "-preset", "fast",
                             "-crf", "28",

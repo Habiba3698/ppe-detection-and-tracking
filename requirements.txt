@@ -1,0 +1,9 @@
+streamlit
+ultralytics
+torch
+numpy
+pillow
+imageio
+imageio-ffmpeg
+PyYAML
+opencv-python-headless

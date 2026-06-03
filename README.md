@@ -20,7 +20,7 @@ The full dataset is not included in this repository due to size limitations.
 
 📥 Dataset Download:
 
-[DATASET_GOOGLE_DRIVE_LINK]
+[[DATASET_KAGGLE_LINK](https://www.kaggle.com/datasets/muhammetzahitaydn/hardhat-vest-dataset-v3)]
 
 ## Demo Videos
 
@@ -28,15 +28,13 @@ Example videos used for testing and demonstration are available here:
 
 📹 Demo Videos:
 
-[VIDEOS_GOOGLE_DRIVE_LINK]
+[[VIDEOS_GOOGLE_DRIVE_LINK](https://drive.google.com/drive/folders/1UDa3lHwAO9yxAKa9sI2o0RKMrYfGIu5L?usp=sharing)]
 
 ## Model Weights
 
-Trained model weights:
+Project Drive Link:
 
-📦 best.pt
-
-[MODEL_GOOGLE_DRIVE_LINK]
+[PROJECT GOOGLE DRIVE LINK](https://drive.google.com/drive/folders/13XIPPedNYfqhsa5X9Ney1cI0qn5Ks61j?usp=sharing)
 
 ## Model Evaluation
 

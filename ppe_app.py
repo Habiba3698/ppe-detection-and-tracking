@@ -156,7 +156,7 @@ if uploaded_file is not None:
                 else:
                     st.write("Confidence:", confidence)
     
-                    model.track(
+                    results= model.track(
                         source=temp_input_path,
                         conf=confidence,
                         device=device,
@@ -165,6 +165,9 @@ if uploaded_file is not None:
                         save=True,
                         stream=True
                     )
+
+                    for _ in results:
+                        pass
 
                 detect_dir = Path("runs/detect")
 

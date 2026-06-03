@@ -146,12 +146,17 @@ if uploaded_file is not None:
 
                 if mode == "Detection":
 
-                    model.predict(
+                    results= model.predict(
                         source=temp_input_path,
                         conf=confidence,
                         device=device,
-                        save=True
+                        imgsz=512,
+                        save=True,
+                        stream=True
                     )
+
+                    for _ in results:
+                        pass                
 
                 else:
                     st.write("Confidence:", confidence)
